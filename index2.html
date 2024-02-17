@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>siteshop.exe</title>
+    <style>
+        /* Общие стили */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            line-height: 1.6;
+            background-color: #f8f9fa;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            position: relative; /* Добавлено для позиционирования иконки */
+        }
+        #logo {
+            position: absolute; /* Позиционирование */
+            top: 10px; /* Отступ сверху */
+            left: 10px; /* Отступ слева */
+            border-radius: 50%; /* Округление */
+            overflow: hidden; /* Обрезка изображения */
+            width: 50px; /* Ширина контейнера */
+            height: 50px; /* Высота контейнера */
+        }
+        #logo img {
+            width: 100%; /* 100% ширина изображения в контейнере */
+            height: auto; /* Автоматическая высота */
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        main {
+            padding: 20px;
+            text-align: center;
+            margin-bottom: 150px; /* Увеличенный отступ, чтобы контент не перекрывался футером */
+            background-image: url('background.jpg');
+            background-size: cover;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Стили для кнопки */
+        .btn {
+            display: inline-block;
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+            border: 2px solid #007bff; /* рамка */
+            margin-right: 10px; /* Добавлен отступ между кнопками */
+        }
+        .btn:hover {
+            background-color: #0056b3;
+        }
+
+        /* Стили для раздела "О нас" и "Против мошенничества" */
+        .section {
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            margin: 20px auto;
+            max-width: 600px;
+            border: 2px solid #ccc; /* рамка */
+            margin-bottom: 100px; /* Добавленный отступ, чтобы контент не перекрывался футером */
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            color: #333; /* Изменен цвет текста */
+        }
+        .section h2 {
+            color: #333;
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+        .section p {
+            color: #555;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <img src="siyeshop.exe.jpg" alt="Логотип">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">О нас</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1 style="color: rgba(1, 1, 1, 0.9);">Добро пожаловать на siteshop.exe</h1>
+        <p style="color: rgba(69, 65, 65, 0.9);">Здесь вы можете заказать уникальный сайт для вашего бизнеса!</p>
+        <a href="https://www.instagram.com/siteshop.exe/" class="btn">Заказать сайт</a>
+        <a href="https://www.instagram.com/mironnngi/" class="btn">Владелец компании</a>
+    </main>
+
+    <section id="about" class="section">
+        <h2>О нас</h2>
+        <p>Мы - команда профессиональных веб-разработчиков, специализирующихся на создании качественных сайтов для вашего бизнеса. Наша миссия - помочь вашему бренду раскрыть свой потенциал в онлайн-мире, предоставив вам уникальные и инновационные веб-решения.</p>
+        <p>Мы гордимся своей технической экспертизой, творческим подходом к дизайну и стремлением к высочайшему качеству. С нами ваш сайт будет не только привлекательным и современным, но и эффективным инструментом для развития вашего бизнеса.</p>
+    </section>
+
+    <section id="antifraud" class="section">
+        <h2>Против мошенничества</h2>
+        <p>Наша команда крайне серьезно относится к вопросам безопасности и защиты интересов клиентов. Мы принимаем все необходимые меры для предотвращения мошеннических действий на нашей платформе. Все наши сотрудники проходят специальное обучение и строго соблюдают правила этики и конфиденциальности.</p>
+        <p>Если у вас возникли подозрения на мошенническую деятельность, пожалуйста, обратитесь к нам немедленно. Мы немедленно примем все необходимые меры для расследования инцидента и защиты ваших интересов.</p>
+    </section>
+
+    <footer>
+        <p>© 2024 Продажа сайтов. Все права защищены.</p>
+    </footer>
+</body>
+</html>
+#https://www.instagram.com/mironnngi/
+#siyeshop.exe.jpg 
